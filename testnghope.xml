@@ -5,6 +5,7 @@
     <classes>
       <class name="Sample1OM"/>
      <class name="Sample2OM"/>
+      <class name="Sample3OM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
