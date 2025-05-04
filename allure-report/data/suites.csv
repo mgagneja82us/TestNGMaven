@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verifies user login with invalid credentials","579","LoginPage1","Suite","Mon Mar 03 21:21:47 CST 2025","passed","Mon Mar 03 21:21:47 CST 2025","Test.LoginTest","Test","Test.LoginTest","LoginPage1"
+"Verifies user login with valid credentials","2518","LoginPage","Suite","Mon Mar 03 21:21:43 CST 2025","passed","Mon Mar 03 21:21:45 CST 2025","Test.LoginTest","Test","Test.LoginTest","LoginPage"

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+    <listener class-name="listners.ItestListnersM"/>
+   <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+</listeners>
+ 
+  <test thread-count="5" name="SCRUM-32 test">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="nodeTag" value="node1"/>
+     <classes>
+      <class name="Test.LoginTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="SCRUM-33 test">
+  <parameter name="browser" value="edge"></parameter>
+  <parameter name="nodeTag" value="node1"/>
+  
+     <classes>
+    
+       <class name="Test.TestSet01"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="SCRUM-34 test">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="nodeTag" value="node2"/>
+   
+     <classes>
+
+       <class name="Test.TestSet02"/>
+
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="SCRUM-35 test">
+  <parameter name="browser" value="chrome"></parameter>
+   <parameter name="nodeTag" value="node1"/>
+  
+     <classes>
+
+       <class name="Test.TestSet03"/>
+
+    </classes>
+  </test> <!-- Test -->
+    
+     <test thread-count="5" name="SCRUM-36 test">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="nodeTag" value="node2"/>
+     <classes>
+
+       <class name="Test.TestSet04"/>
+
+    </classes>
+  </test> <!-- Test -->
+    
+       <test thread-count="5" name="SCRUM-37 test">
+  <parameter name="browser" value="edge"></parameter>
+  <parameter name="nodeTag" value="node1"/>
+    
+     <classes>
+
+       <class name="Test.TestSet05_rerun"/>
+
+    </classes>
+  </test> <!-- Test -->
+    
+</suite> <!-- Suite -->

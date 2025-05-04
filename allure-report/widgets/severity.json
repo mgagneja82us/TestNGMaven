@@ -1,0 +1,1 @@
+[{"uid":"672a2bd6da5c8ea7","name":"LoginPage","time":{"start":1741058503239,"stop":1741058505757,"duration":2518},"status":"passed","severity":"critical"},{"uid":"86b2cb6bc70c7b27","name":"LoginPage1","time":{"start":1741058507330,"stop":1741058507909,"duration":579},"status":"passed","severity":"minor"}]

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="30" passed="24" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T18:18:49 GMT-05:00" name="Suite" finished-at="2025-04-15T18:19:23 GMT-05:00" duration-ms="34637">
+    <groups>
+    </groups>
+    <test started-at="2025-04-15T18:18:49 GMT-05:00" name="SCRUM-35 test" finished-at="2025-04-15T18:19:00 GMT-05:00" duration-ms="11742">
+      <class name="Test.TestSet03">
+        <test-method signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet03@710d89e2]" started-at="2025-04-15T18:18:49 GMT-05:00" name="try1" finished-at="2025-04-15T18:18:51 GMT-05:00" duration-ms="2714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method signature="try2(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet03@710d89e2]" started-at="2025-04-15T18:18:51 GMT-05:00" name="try2" finished-at="2025-04-15T18:18:53 GMT-05:00" duration-ms="1324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try2 -->
+        <test-method signature="try3(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet03@710d89e2]" started-at="2025-04-15T18:18:53 GMT-05:00" name="try3" finished-at="2025-04-15T18:18:55 GMT-05:00" duration-ms="2784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try3 -->
+        <test-method signature="try4(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet03@710d89e2]" started-at="2025-04-15T18:18:55 GMT-05:00" name="try4" finished-at="2025-04-15T18:18:58 GMT-05:00" duration-ms="2507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try4 -->
+        <test-method signature="try5(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet03@710d89e2]" started-at="2025-04-15T18:18:58 GMT-05:00" name="try5" finished-at="2025-04-15T18:19:00 GMT-05:00" duration-ms="2269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try5 -->
+      </class> <!-- Test.TestSet03 -->
+    </test> <!-- SCRUM-35 test -->
+    <test started-at="2025-04-15T18:18:49 GMT-05:00" name="SCRUM-32 test" finished-at="2025-04-15T18:19:07 GMT-05:00" duration-ms="18581">
+      <class name="Test.LoginTest">
+        <test-method is-config="true" signature="inialsetup(java.lang.String,java.lang.String)[pri:0, instance:Test.LoginTest@642505c7]" started-at="2025-04-15T18:18:49 GMT-05:00" name="inialsetup" finished-at="2025-04-15T18:18:51 GMT-05:00" duration-ms="2195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inialsetup -->
+        <test-method signature="AddtocartPage()[pri:0, instance:Test.LoginTest@642505c7]" started-at="2025-04-15T18:18:51 GMT-05:00" name="AddtocartPage" finished-at="2025-04-15T18:19:06 GMT-05:00" duration-ms="15096" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b9b5c5f2ac4aaf3e1e79651c3a9afe77, clickElement {id=f.59D3AEC0A776393DDD0DE1F7A4149196.d.E5FC52436D3F34C7B0A2D2D4F445F555.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\Mohit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.251:4444/ses..., se:cdpVersion: 135.0.7049.85, se:slotCapability: {node: node1}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (b9b5c5f2ac4aaf3e1e79651c3a9afe77)] -> xpath: (//img[@title='Show details for Blue Jeans'])[1]]
+Session ID: b9b5c5f2ac4aaf3e1e79651c3a9afe77]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b9b5c5f2ac4aaf3e1e79651c3a9afe77, clickElement {id=f.59D3AEC0A776393DDD0DE1F7A4149196.d.E5FC52436D3F34C7B0A2D2D4F445F555.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\Mohit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.251:4444/ses..., se:cdpVersion: 135.0.7049.85, se:slotCapability: {node: node1}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (b9b5c5f2ac4aaf3e1e79651c3a9afe77)] -> xpath: (//img[@title='Show details for Blue Jeans'])[1]]
+Session ID: b9b5c5f2ac4aaf3e1e79651c3a9afe77
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Test.LoginTest.AddtocartPage(LoginTest.java:124)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtocartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.LoginTest@642505c7]" started-at="2025-04-15T18:19:06 GMT-05:00" name="tearDown" finished-at="2025-04-15T18:19:07 GMT-05:00" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- SCRUM-32 test -->
+    <test started-at="2025-04-15T18:18:49 GMT-05:00" name="SCRUM-36 test" finished-at="2025-04-15T18:19:16 GMT-05:00" duration-ms="27035">
+      <class name="Test.TestSet04">
+        <test-method signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet04@1b9776f5]" started-at="2025-04-15T18:18:49 GMT-05:00" name="try1" finished-at="2025-04-15T18:18:56 GMT-05:00" duration-ms="7547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method signature="try2(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet04@1b9776f5]" started-at="2025-04-15T18:18:56 GMT-05:00" name="try2" finished-at="2025-04-15T18:19:03 GMT-05:00" duration-ms="6877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try2 -->
+        <test-method signature="try3(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet04@1b9776f5]" started-at="2025-04-15T18:19:03 GMT-05:00" name="try3" finished-at="2025-04-15T18:19:08 GMT-05:00" duration-ms="4911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try3 -->
+        <test-method signature="try4(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet04@1b9776f5]" started-at="2025-04-15T18:19:08 GMT-05:00" name="try4" finished-at="2025-04-15T18:19:12 GMT-05:00" duration-ms="3517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try4 -->
+        <test-method signature="try5(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet04@1b9776f5]" started-at="2025-04-15T18:19:12 GMT-05:00" name="try5" finished-at="2025-04-15T18:19:16 GMT-05:00" duration-ms="4050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try5 -->
+      </class> <!-- Test.TestSet04 -->
+    </test> <!-- SCRUM-36 test -->
+    <test started-at="2025-04-15T18:18:49 GMT-05:00" name="SCRUM-33 test" finished-at="2025-04-15T18:19:18 GMT-05:00" duration-ms="29314">
+      <class name="Test.TestSet01">
+        <test-method retried="true" signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:18:49 GMT-05:00" name="try1" finished-at="2025-04-15T18:18:51 GMT-05:00" duration-ms="2792" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Test.TestSet01.try1(TestSet01.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method retried="true" signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:18:52 GMT-05:00" name="try1" finished-at="2025-04-15T18:18:55 GMT-05:00" duration-ms="3719" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Test.TestSet01.try1(TestSet01.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:18:55 GMT-05:00" name="try1" finished-at="2025-04-15T18:18:59 GMT-05:00" duration-ms="3488" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Test.TestSet01.try1(TestSet01.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method signature="try2(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:18:59 GMT-05:00" name="try2" finished-at="2025-04-15T18:19:05 GMT-05:00" duration-ms="5425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try2 -->
+        <test-method signature="try3(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:19:05 GMT-05:00" name="try3" finished-at="2025-04-15T18:19:09 GMT-05:00" duration-ms="4509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try3 -->
+        <test-method signature="try4(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:19:09 GMT-05:00" name="try4" finished-at="2025-04-15T18:19:14 GMT-05:00" duration-ms="4489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try4 -->
+        <test-method signature="try5(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet01@2f61d591]" started-at="2025-04-15T18:19:14 GMT-05:00" name="try5" finished-at="2025-04-15T18:19:18 GMT-05:00" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try5 -->
+      </class> <!-- Test.TestSet01 -->
+    </test> <!-- SCRUM-33 test -->
+    <test started-at="2025-04-15T18:18:49 GMT-05:00" name="SCRUM-34 test" finished-at="2025-04-15T18:19:19 GMT-05:00" duration-ms="30329">
+      <class name="Test.TestSet02">
+        <test-method signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet02@43d38654]" started-at="2025-04-15T18:18:49 GMT-05:00" name="try1" finished-at="2025-04-15T18:18:59 GMT-05:00" duration-ms="10069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method signature="try2(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet02@43d38654]" started-at="2025-04-15T18:18:59 GMT-05:00" name="try2" finished-at="2025-04-15T18:19:05 GMT-05:00" duration-ms="6675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try2 -->
+        <test-method signature="try3(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet02@43d38654]" started-at="2025-04-15T18:19:05 GMT-05:00" name="try3" finished-at="2025-04-15T18:19:10 GMT-05:00" duration-ms="4910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try3 -->
+        <test-method signature="try4(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet02@43d38654]" started-at="2025-04-15T18:19:10 GMT-05:00" name="try4" finished-at="2025-04-15T18:19:15 GMT-05:00" duration-ms="4581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try4 -->
+        <test-method signature="try5(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet02@43d38654]" started-at="2025-04-15T18:19:15 GMT-05:00" name="try5" finished-at="2025-04-15T18:19:19 GMT-05:00" duration-ms="3974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try5 -->
+      </class> <!-- Test.TestSet02 -->
+    </test> <!-- SCRUM-34 test -->
+    <test started-at="2025-04-15T18:19:00 GMT-05:00" name="SCRUM-37 test" finished-at="2025-04-15T18:19:23 GMT-05:00" duration-ms="22868">
+      <class name="Test.TestSet05_rerun">
+        <test-method signature="try1(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet05_rerun@67a3bd51]" started-at="2025-04-15T18:19:00 GMT-05:00" name="try1" finished-at="2025-04-15T18:19:05 GMT-05:00" duration-ms="4794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try1 -->
+        <test-method signature="try2(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet05_rerun@67a3bd51]" started-at="2025-04-15T18:19:05 GMT-05:00" name="try2" finished-at="2025-04-15T18:19:10 GMT-05:00" duration-ms="4728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try2 -->
+        <test-method signature="try3(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet05_rerun@67a3bd51]" started-at="2025-04-15T18:19:10 GMT-05:00" name="try3" finished-at="2025-04-15T18:19:14 GMT-05:00" duration-ms="4514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try3 -->
+        <test-method signature="try4(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet05_rerun@67a3bd51]" started-at="2025-04-15T18:19:14 GMT-05:00" name="try4" finished-at="2025-04-15T18:19:19 GMT-05:00" duration-ms="4539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try4 -->
+        <test-method signature="try5(java.lang.String,java.lang.String)[pri:0, instance:Test.TestSet05_rerun@67a3bd51]" started-at="2025-04-15T18:19:19 GMT-05:00" name="try5" finished-at="2025-04-15T18:19:23 GMT-05:00" duration-ms="4278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[node1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try5 -->
+      </class> <!-- Test.TestSet05_rerun -->
+    </test> <!-- SCRUM-37 test -->
+  </suite> <!-- Suite -->
+</testng-results>
