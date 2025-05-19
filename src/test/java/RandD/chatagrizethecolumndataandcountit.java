@@ -18,7 +18,7 @@ public class chatagrizethecolumndataandcountit
 	{
 	ChromeDriver driver = new ChromeDriver();
 	
-	driver.get("file:///C:/Users/Mohit/Desktop/tables.html");
+	driver.get("C:\\Users\\Mohit\\OneDrive\\Desktop\\tables.html");
 	
 	List<WebElement> header = driver.findElements(By.xpath("//table[caption[contains(text(),'Single Column Mixed Values Table')]]//th"));
 	

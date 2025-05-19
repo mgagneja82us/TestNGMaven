@@ -1,3 +1,16 @@
+//You have an HTML table with the caption "Status Table" containing multiple rows. The table has a "Name" column and a "Status" column (values can be "Active" or "Inactive").
+//
+//Write a Selenium + TestNG + Apache POI program that:
+//
+//Dynamically finds the index of "Name" and "Status" columns
+//
+//Iterates over each table row and extracts only rows where status is "Active"
+//
+//Writes all the cell values of matching rows into a new Excel sheet
+//
+//Each run should create a new sheet in the same Excel file with the name NewSheetXX (where XX is current second)
+//
+
 package RandD;
 
 import java.io.FileInputStream;

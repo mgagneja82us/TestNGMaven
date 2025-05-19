@@ -23,7 +23,7 @@ public class exportalldatafromtabletoexcel
 	{
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("file:///C:/Users/Mohit/Desktop/tables.html");
+		driver.get("C:\\Users\\Mohit\\OneDrive\\Desktop\\tables.html");
 		
 		
 		int counttr = driver.findElements(By.xpath("//table//tr")).size();
@@ -67,7 +67,7 @@ public class exportalldatafromtabletoexcel
 		
 		
 		
-		driver.quit();
+		//driver.quit();
 		
 	}
 

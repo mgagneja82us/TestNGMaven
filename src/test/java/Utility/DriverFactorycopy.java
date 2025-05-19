@@ -1,9 +1,14 @@
 package Utility;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverFactorycopy
 {
@@ -14,21 +19,47 @@ public class DriverFactorycopy
 		return driver.get();
 	}
 	
-	public static void setdriver(String browser)
+	public static void setdriver(String browser) throws IOException
 	{
+		
+		configReader config = new configReader();
+		boolean isHeadless = config.getproperties("headless").equalsIgnoreCase("true");
+		
 		switch(browser.toLowerCase())
 		{
 		case "chrome":
-			driver.set(new ChromeDriver());//initialize Chrome Driver Instance and store in Driver
+			
+			ChromeOptions chromeoptions = new ChromeOptions();
+			
+			
+			if(isHeadless)
+			{
+				chromeoptions.addArguments("--headless=new", "--window-size=1920,1080");
+				
+			}
+			driver.set(new ChromeDriver(chromeoptions));//initialize Chrome Driver Instance and store in Driver
 			break;
 		case "edge":
+			EdgeOptions edgeoptions = new EdgeOptions();
+			if(isHeadless)
+			{
+				edgeoptions.addArguments("--headless=new", "--window-size=1920,1080");
+				
+			}
 			
-			driver.set(new EdgeDriver());//initialize EdgeDriver Instance and store in Driver
+			driver.set(new EdgeDriver(edgeoptions));//initialize EdgeDriver Instance and store in Driver
 			break;
 			
 		case "firefox":
 			
-			driver.set(new FirefoxDriver());//initialize FirefoxDriver Instance and store in Driver
+			FirefoxOptions  firefoxoptions = new FirefoxOptions ();
+			if(isHeadless)
+			{
+				firefoxoptions.addArguments("--headless=new", "--window-size=1920,1080");
+				
+			}
+			
+			driver.set(new FirefoxDriver(firefoxoptions));//initialize FirefoxDriver Instance and store in Driver
 			break;
 			
 		default:

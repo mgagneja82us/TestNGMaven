@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.TestSet01">
+      <class name="Test.MGLoginmain">
         <methods>
-          <include name="try2"/>
-          <include name="try1"/>
-          <include name="try3"/>
-          <include name="try5"/>
-          <include name="try4"/>
+          <include name="driverfile"/>
+          <include name="mainLoginPage"/>
         </methods>
-      </class> <!-- Test.TestSet01 -->
+      </class> <!-- Test.MGLoginmain -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

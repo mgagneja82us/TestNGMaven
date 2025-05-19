@@ -19,7 +19,7 @@ public class clickonradiobuttonandbuttonperemail
 	{
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("file:///C:/Users/Mohit/Desktop/tables.html");
+		driver.get("C:\\Users\\Mohit\\OneDrive\\Desktop\\tables.html");
 		
 		List<WebElement>tablerows =  driver.findElements(By.xpath("//table[caption[contains(text(),'Product Table')]]//tr"));
 		
@@ -67,12 +67,12 @@ public class clickonradiobuttonandbuttonperemail
 						System.out.println(testdata.get(indexforproductname).getText().trim());
 						System.out.println(testdata.get(indexforprice).getText().trim());
 						
-						tablerows.get(x).findElement(By.xpath(".//button[contains(text(),'Buy Now')]")).click();
+						tablerows.get(x).findElement(By.xpath("./button")).click();
 					}
 					
 				}
 				
-				driver.quit();
+				//driver.quit();
 	}
 
 }
